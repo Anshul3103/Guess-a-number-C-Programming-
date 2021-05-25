@@ -21,6 +21,7 @@ int main(){
         }
         else{
             printf("You guessed it in %d attempts\n",nguesses);
+            printf("Congrats!!");
         }
         nguesses++;
     } while (guess!=number);
